@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ned">
+<head>
+<title>Contactformulier</title>
+<style type="text/CSS">
+
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+color: red;
+background-color: lightgreen;
+}
+input[type="text"], input[type="email"],
+textarea, select, button{
+display: block;
+margin: 15px 0px;
+width: 300px;
+box-sizing: border-box;
+border-radius: 4px; box-shadow: inset 2px 2px 5px blue;
+}
+textarea{
+height: 150px;
+padding: 5px 4px;
+}
+button:active{
+background-color: green;
+color: white;
+border-radius: 4px;box-shadow: inset 2px 2px 5px red;
+}
+</style>
+</head>
+<body>
+<form>Contactformulier
+<input type="text" placeholder="Mijn voornaam">
+<input type="text" placeholder="Mijn Achternaam">
+<input type="email" placeholder="Mijn e-mailadres">
+<textarea placeholder="Bericht"></textarea>
+<button>Verzend</button>
+</form>
+</body>
+</html>
